@@ -88,6 +88,6 @@ allure generate ./allure-results -o ./allure-report --clean
 allure open ./allure-report
 ```
 
-<h3> Test Result </h3>
+<h2> Test Result </h2>
 
 Click [here](https://drive.google.com/drive/u/0/folders/10T0ph7mtZAb5cKAI349eR952S4gNP1uN) if you want to download this project's test report. This is the Playwright default report only. To get the allure report, please follow the steps mentioned in Reports section.
