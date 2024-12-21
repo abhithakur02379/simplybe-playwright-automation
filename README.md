@@ -34,17 +34,13 @@ To run this project in headed mode, please execute the following command
 ```console
 npx playwright test --project chrome --headed
 ````
+<h4> Headless Mode </h4>
 
 To run this project in headless mode, please execute the following command
 ```console
-npx playwright test --workers=1
+npx playwright test --project firefox
 ```
-
-To run in windowed mode with Playwright interface, run the following command:
-
-```console
-npx playwright test --ui --workers=1
-```
+**Note** Chrome is having some issue in accessing website in  headless mode so tests ran on Chrome will fail.
 
 <h2> Reports </h2>
 
