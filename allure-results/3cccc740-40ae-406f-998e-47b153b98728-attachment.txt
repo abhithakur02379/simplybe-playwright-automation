@@ -1,0 +1,13 @@
+2024-12-22T01:52:30+05:30 [info]: Launching application
+2024-12-22T01:52:30+05:30 [error]: Unable to launch browser: Error: page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.jacamo.co.uk/
+Call log:
+  - navigating to "https://www.jacamo.co.uk/", waiting until "load"
+
+2024-12-22T01:52:30+05:30 [error]: Error launching applicationError: page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.jacamo.co.uk/
+Call log:
+  - navigating to "https://www.jacamo.co.uk/", waiting until "load"
+
+2024-12-22T01:52:30+05:30 [error]: Error clicking sign in button : Error: page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.jacamo.co.uk/
+Call log:
+  - navigating to "https://www.jacamo.co.uk/", waiting until "load"
+

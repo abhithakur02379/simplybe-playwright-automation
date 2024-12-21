@@ -22,7 +22,7 @@ const config: PlaywrightTestConfig = {
   retries: 0,
 
   //Reporters
-  reporter: [['./CustomReporterConfig.ts'], ['allure-playwright', reporter], ['html']],
+  reporter: [['./CustomReporterConfig.ts'], ['allure-playwright', reporter], ['html',{ open: 'never'}]],
 
   projects: [
     {

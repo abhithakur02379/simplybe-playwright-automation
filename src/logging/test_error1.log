@@ -152,3 +152,41 @@ Call log:
 Call log:
 [2m  - navigating to "https://www.simplybe.co.uk/", waiting until "load"[22m
 
+2024-12-22T01:50:36+05:30 [error]: Error providing communication consent details : Error: Waiting for Account to be created successfully
+
+[31mTimed out 5000ms waiting for [39m[2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m
+
+Locator: getByText('Account created !')
+Expected: visible
+Received: <element(s) not found>
+Call log:
+[2m  - Waiting for Account to be created successfully with timeout 5000ms[22m
+[2m  - waiting for getByText('Account created !')[22m
+
+2024-12-22T01:50:46+05:30 [error]: Error clicking sign in button : Error: page.waitForLoadState: Target page, context or browser has been closed
+2024-12-22T01:50:53+05:30 [error]: Error clicking sign in button : Error: page.waitForLoadState: Test ended.
+2024-12-22T01:50:53+05:30 [error]: Error adding product to bag : Error: page.waitForLoadState: Test ended.
+2024-12-22T01:52:24+05:30 [error]: Unable to launch browser: Error: page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.jacamo.co.uk/
+Call log:
+[2m  - navigating to "https://www.jacamo.co.uk/", waiting until "load"[22m
+
+2024-12-22T01:52:24+05:30 [error]: Error launching applicationError: page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.jacamo.co.uk/
+Call log:
+[2m  - navigating to "https://www.jacamo.co.uk/", waiting until "load"[22m
+
+2024-12-22T01:52:24+05:30 [error]: Error in navigation to new user registration page : Error: page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.jacamo.co.uk/
+Call log:
+[2m  - navigating to "https://www.jacamo.co.uk/", waiting until "load"[22m
+
+2024-12-22T01:52:26+05:30 [error]: Unable to launch browser: Error: page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.jacamo.co.uk/
+Call log:
+[2m  - navigating to "https://www.jacamo.co.uk/", waiting until "load"[22m
+
+2024-12-22T01:52:26+05:30 [error]: Error launching applicationError: page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.jacamo.co.uk/
+Call log:
+[2m  - navigating to "https://www.jacamo.co.uk/", waiting until "load"[22m
+
+2024-12-22T01:52:26+05:30 [error]: Error clicking sign in button : Error: page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.jacamo.co.uk/
+Call log:
+[2m  - navigating to "https://www.jacamo.co.uk/", waiting until "load"[22m
+
