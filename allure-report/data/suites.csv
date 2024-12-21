@@ -1,0 +1,7 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","11732","Verify product should be added to bag successfully","Chrome","Sat Dec 21 17:49:22 WET 2024","passed","Sat Dec 21 17:49:34 WET 2024","","src/tests/simplybe.spec.ts","",""
+"","17053","Verify new user can register successfully","Chrome","Sat Dec 21 17:48:50 WET 2024","passed","Sat Dec 21 17:49:07 WET 2024","","src/tests/simplybe.spec.ts","",""
+"","10801","Verify promotion code","Chrome","Sat Dec 21 17:49:34 WET 2024","passed","Sat Dec 21 17:49:44 WET 2024","","src/tests/simplybe.spec.ts","",""
+"","13050","Veirfy user can log out successfully","Chrome","Sat Dec 21 17:49:51 WET 2024","passed","Sat Dec 21 17:50:04 WET 2024","","src/tests/simplybe.spec.ts","",""
+"","14582","Veirfy user can log in successfully","Chrome","Sat Dec 21 17:49:07 WET 2024","passed","Sat Dec 21 17:49:22 WET 2024","","src/tests/simplybe.spec.ts","",""
+"","6929","Verify catalog items","Chrome","Sat Dec 21 17:49:44 WET 2024","passed","Sat Dec 21 17:49:51 WET 2024","","src/tests/simplybe.spec.ts","",""

@@ -1,79 +1,102 @@
-import { defineConfig, devices } from '@playwright/test';
+import { PlaywrightTestConfig, devices } from '@playwright/test';
+import { OrtoniReportConfig } from 'ortoni-report';
+import { testConfig } from './src/config/testConfig';
 
-/**
- * Read environment variables from file.
- * https://github.com/motdotla/dotenv
- */
-// import dotenv from 'dotenv';
-// import path from 'path';
-// dotenv.config({ path: path.resolve(__dirname, '.env') });
+const reporter = {
+  base64Image: true,
+  title: 'Simply be automation',
+  showProject: true,
+  authorName: 'Abhishek Singh',
+  preferredTheme: 'dark',
+  projectName: 'Simply be automation with playwright using Typescript',
+}
 
-/**
- * See https://playwright.dev/docs/test-configuration.
- */
-export default defineConfig({
-  testDir: './src/tests',
-  /* Run tests in files in parallel */
-  fullyParallel: true,
-  /* Fail the build on CI if you accidentally left test.only in the source code. */
-  forbidOnly: !!process.env.CI,
-  /* Retry on CI only */
-  retries: process.env.CI ? 2 : 0,
-  /* Opt out of parallel tests on CI. */
-  workers: process.env.CI ? 1 : undefined,
-  /* Reporter to use. See https://playwright.dev/docs/test-reporters */
-  reporter: 'html',
-  /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
-  use: {
-    /* Base URL to use in actions like `await page.goto('/')`. */
-    // baseURL: 'http://127.0.0.1:3000',
+const config: PlaywrightTestConfig = {
 
-    /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
-    trace: 'on-first-retry',
-  },
+  //Global Setup to run before all tests
+  globalSetup: './global-setup',
 
-  /* Configure projects for major browsers */
+  //sets timeout for each test case
+  timeout: 120000,
+
+  //number of retries if test case fails
+  retries: 0,
+
+  //Reporters
+  reporter: [['./CustomReporterConfig.ts'], ['allure-playwright', reporter], ['html', {open: 'never'}]],
+
   projects: [
     {
-      name: 'chromium',
-      use: { ...devices['Desktop Chrome'] },
+      name: 'Firefox',
+      use: {
+        browserName: 'firefox',
+        baseURL: testConfig.baseURL,
+        headless: true,
+        viewport: { width: 1500, height: 730 },
+        ignoreHTTPSErrors: true,
+        acceptDownloads: true,
+        screenshot: 'only-on-failure',
+        video: 'retain-on-failure',
+        trace: 'retain-on-failure',
+        launchOptions: {
+          slowMo: 500
+        }
+      },
     },
-
     {
-      name: 'firefox',
-      use: { ...devices['Desktop Firefox'] },
-    },
+      name: 'Chrome',
+      use: {
+        // Configure the browser to use.
+        browserName: 'chromium',
 
+        //Chrome Browser Config
+        channel: 'chrome',
+
+        //Picks Base Url based on User input
+        baseURL: testConfig.baseURL,
+
+        //Browser Mode
+        headless: true,
+
+        //Browser height and width
+        viewport: { width: 1500, height: 730 },
+        ignoreHTTPSErrors: true,
+
+        //Enable File Downloads in Chrome
+        acceptDownloads: true,
+
+        //Artifacts
+        screenshot: 'only-on-failure',
+        video: 'retain-on-failure',
+        trace: 'retain-on-failure',
+
+        //Slows down execution by ms
+        launchOptions: {
+          slowMo: 500
+        }
+      },
+    },
     {
-      name: 'webkit',
-      use: { ...devices['Desktop Safari'] },
+      name: 'WebKit',
+      use: {
+        browserName: 'webkit',
+        baseURL: testConfig.baseURL,
+        headless: true,
+        viewport: { width: 1500, height: 730 },
+        ignoreHTTPSErrors: true,
+        acceptDownloads: true,
+        screenshot: 'only-on-failure',
+        video: 'retain-on-failure',
+        trace: 'retain-on-failure',
+        launchOptions: {
+          slowMo: 500
+        }
+      },
     },
-
-    /* Test against mobile viewports. */
-    // {
-    //   name: 'Mobile Chrome',
-    //   use: { ...devices['Pixel 5'] },
-    // },
-    // {
-    //   name: 'Mobile Safari',
-    //   use: { ...devices['iPhone 12'] },
-    // },
-
-    /* Test against branded browsers. */
-    // {
-    //   name: 'Microsoft Edge',
-    //   use: { ...devices['Desktop Edge'], channel: 'msedge' },
-    // },
-    // {
-    //   name: 'Google Chrome',
-    //   use: { ...devices['Desktop Chrome'], channel: 'chrome' },
-    // },
+    {
+      name: 'Web',
+    }
   ],
+};
 
-  /* Run your local dev server before starting the tests */
-  // webServer: {
-  //   command: 'npm run start',
-  //   url: 'http://127.0.0.1:3000',
-  //   reuseExistingServer: !process.env.CI,
-  // },
-});
+export default config

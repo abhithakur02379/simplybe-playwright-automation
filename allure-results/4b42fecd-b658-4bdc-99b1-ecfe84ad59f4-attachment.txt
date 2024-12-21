@@ -1,0 +1,13 @@
+2024-12-21T23:49:51+05:30 [info]: Launching application
+2024-12-21T23:49:53+05:30 [info]: Browser launched
+2024-12-21T23:50:02+05:30 [error]: Error in browsing catalogError: Waiting for account options to be visible
+
+expect(locator).toBeVisible()
+
+Locator: locator('#hfMenuBtn')
+Expected: visible
+Received: <element(s) not found>
+Call log:
+  - Waiting for account options to be visible with timeout 5000ms
+  - waiting for locator('#hfMenuBtn')
+

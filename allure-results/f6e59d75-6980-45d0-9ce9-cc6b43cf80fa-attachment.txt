@@ -1,0 +1,2 @@
+2024-12-21T23:49:09+05:30 [info]: Launching application
+2024-12-21T23:49:11+05:30 [info]: Browser launched

@@ -9,6 +9,12 @@
   "description": "",
   "devDependencies": {
     "@playwright/test": "^1.49.1",
-    "@types/node": "^22.10.2"
+    "@types/node": "^22.10.2",
+    "allure-playwright": "^3.0.7",
+    "ortoni-report": "^2.0.9",
+    "winston": "3.17.0"
+  },
+  "dependencies": {
+    "moment-timezone": "^0.5.46"
   }
 }

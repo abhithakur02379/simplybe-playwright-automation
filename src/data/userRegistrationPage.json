@@ -1,0 +1,14 @@
+{
+    "customerTitle" : "Mr",
+    "firstName" : "John",
+    "lastName" : "Doe",
+    "dayOfBirth" : "01",
+    "monthOfBirth" : "01",
+    "yearOfBirth" : "2000",
+    "genericAddress" : "1A",
+    "houseNumber" : "16",
+    "houseName" : "North Drive",
+    "flatNumber" : "North Drive",
+    "city" : "GREAT YARMOUTH",
+    "postCode" : "NR30 4EW"   
+}
