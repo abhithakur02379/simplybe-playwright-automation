@@ -9,15 +9,12 @@ This project is built using <b>Playwright v1.49.</b> with <b>Typescript</b>.
 For correct project setup following softwares should be installed on the machine:
 
 1. Node
-<br>
 Please check [official documentation](https://nodejs.org/en/download/package-manager) to install Node
 
 2. Playwright
-<br>
 Please check [official documentation](https://playwright.dev/docs/intro#installing-playwright) to install Playwright
 
 3. Git
-<br>
 Please check [official documentation](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) to install Git
 
 <h2> Clone the repository </h2>
