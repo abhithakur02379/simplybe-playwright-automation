@@ -2,11 +2,7 @@
 This project is called Simply be automation
 
 <h2> Prerequisites </h2>
-This project is built using <b>Playwright v1.49.</b> with <b>Typescript</b>.          
-
-<br>
-
-For correct project setup following softwares should be installed on the machine:
+This project is built using <b>Playwright v1.49.</b> with <b>Typescript</b>.For correct project setup following softwares should be installed on the machine:
 
 1. Node<br>
 Please check [official documentation](https://nodejs.org/en/download/package-manager) to install Node
