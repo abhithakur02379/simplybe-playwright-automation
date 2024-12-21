@@ -1,5 +1,4 @@
 import { PlaywrightTestConfig, devices } from '@playwright/test';
-import { OrtoniReportConfig } from 'ortoni-report';
 import { testConfig } from './src/config/testConfig';
 
 const reporter = {
@@ -23,7 +22,7 @@ const config: PlaywrightTestConfig = {
   retries: 0,
 
   //Reporters
-  reporter: [['./CustomReporterConfig.ts'], ['allure-playwright', reporter], ['html', {open: 'never'}]],
+  reporter: [['./CustomReporterConfig.ts'], ['allure-playwright', reporter], ['html']],
 
   projects: [
     {
@@ -93,9 +92,6 @@ const config: PlaywrightTestConfig = {
         }
       },
     },
-    {
-      name: 'Web',
-    }
   ],
 };
 

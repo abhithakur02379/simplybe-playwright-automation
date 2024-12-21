@@ -22,7 +22,7 @@ export class LoginPage extends BasePage {
         this.usernameInput = page.locator('#username')
         this.passwordInput = page.locator('#password')
         this.signInButton = page.locator('#signInButton')
-        this.loggedInEmail = page.locator('//p[@class="contactDetailValue"]').nth(3)
+        this.loggedInEmail = page.locator('(//p[@class="contactDetailValue"])[4]')
         this.myAccountLink = page.getByTestId('my-account-link').nth(1)
         this.simplyBeLogo = page.locator('//img[@title="Simply Be logo"]')
         this.signOutButton = page.locator('//button[contains(text(),"Sign out")]')

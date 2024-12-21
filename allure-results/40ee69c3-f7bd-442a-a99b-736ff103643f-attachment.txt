@@ -1,0 +1,13 @@
+2024-12-22T01:39:39+05:30 [info]: Launching application
+2024-12-22T01:39:41+05:30 [info]: Browser launched
+2024-12-22T01:41:05+05:30 [error]: Error clicking sign out button : Error: Expect menu button to be visible
+
+Timed out 5000ms waiting for expect(locator).toBeVisible()
+
+Locator: locator('#hfMenuBtn')
+Expected: visible
+Received: <element(s) not found>
+Call log:
+  - Expect menu button to be visible with timeout 5000ms
+  - waiting for locator('#hfMenuBtn')
+

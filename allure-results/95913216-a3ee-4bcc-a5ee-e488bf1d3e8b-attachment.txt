@@ -1,0 +1,59 @@
+2024-12-22T01:42:15+05:30 [info]: Launching application
+2024-12-22T01:42:17+05:30 [info]: Browser launched
+data from json = Perks
+data from webpage = Perks
+2024-12-22T01:42:23+05:30 [info]: Catalog values are same
+data from json = Sale
+data from webpage = Sale
+2024-12-22T01:42:23+05:30 [info]: Catalog values are same
+data from json = New In
+data from webpage = New In
+2024-12-22T01:42:23+05:30 [info]: Catalog values are same
+data from json = Christmas
+data from webpage = Christmas
+2024-12-22T01:42:23+05:30 [info]: Catalog values are same
+data from json = Winter
+data from webpage = Winter
+2024-12-22T01:42:23+05:30 [info]: Catalog values are same
+data from json = Clothing
+data from webpage = Clothing
+2024-12-22T01:42:23+05:30 [info]: Catalog values are same
+data from json = Dresses
+data from webpage = Dresses
+2024-12-22T01:42:23+05:30 [info]: Catalog values are same
+data from json = Coats & Jackets
+data from webpage = Coats & Jackets
+2024-12-22T01:42:23+05:30 [info]: Catalog values are same
+data from json = Shoes
+data from webpage = Shoes
+2024-12-22T01:42:23+05:30 [info]: Catalog values are same
+data from json = Lingerie & Nightwear
+data from webpage = Lingerie & Nightwear
+2024-12-22T01:42:23+05:30 [info]: Catalog values are same
+data from json = Denim
+data from webpage = Denim
+2024-12-22T01:42:23+05:30 [info]: Catalog values are same
+data from json = Activewear
+data from webpage = Activewear
+2024-12-22T01:42:23+05:30 [info]: Catalog values are same
+data from json = Swimwear & Beachwear
+data from webpage = Swimwear & Beachwear
+2024-12-22T01:42:23+05:30 [info]: Catalog values are same
+data from json = Beauty & Perfume
+data from webpage = Beauty & Perfume
+2024-12-22T01:42:23+05:30 [info]: Catalog values are same
+data from json = Figleaves
+data from webpage = Figleaves
+2024-12-22T01:42:23+05:30 [info]: Catalog values are same
+data from json = Accessories
+data from webpage = Accessories
+2024-12-22T01:42:23+05:30 [info]: Catalog values are same
+data from json = Outlet
+data from webpage = Outlet
+2024-12-22T01:42:23+05:30 [info]: Catalog values are same
+data from json = Brands
+data from webpage = Brands
+2024-12-22T01:42:23+05:30 [info]: Catalog values are same
+data from json = Useful Information
+data from webpage = Useful Information
+2024-12-22T01:42:23+05:30 [info]: Catalog values are same

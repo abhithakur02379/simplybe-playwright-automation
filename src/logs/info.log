@@ -1,27 +1,72 @@
-2024-12-21T18:18:36Z [info]: Test Case Started : Verify new user can register successfully
-2024-12-21T18:18:36Z [info]: Executing Step : Naviagte to new user registration page
-2024-12-21T18:18:41Z [info]: Executing Step : Provide personal detils
-2024-12-21T18:18:45Z [info]: Executing Step : Provide address details
-2024-12-21T18:18:50Z [info]: Executing Step : Provide login details
-2024-12-21T18:18:51Z [info]: Executing Step : Provide communication consent details
-2024-12-21T18:18:56Z [info]: Test Case Completed : Verify new user can register successfully Status : passed
-2024-12-21T18:18:56Z [info]: Test Case Started : Veirfy user can log in successfully
-2024-12-21T18:18:56Z [info]: Executing Step : Enter user credentials on login page
-2024-12-21T18:19:03Z [info]: Executing Step : Validate login is succussful
-2024-12-21T18:19:09Z [info]: Test Case Completed : Veirfy user can log in successfully Status : passed
-2024-12-21T18:19:09Z [info]: Test Case Started : Verify product should be added to bag successfully
-2024-12-21T18:19:09Z [info]: Executing Step : Add product to bag
-2024-12-21T18:19:22Z [info]: Test Case Completed : Verify product should be added to bag successfully Status : failed
-2024-12-21T18:19:23Z [info]: Test Case Started : Verify promotion code
-2024-12-21T18:19:24Z [info]: Executing Step : Enter user credentials on login page
-2024-12-21T18:19:30Z [info]: Executing Step : Apply promotion code on checkout page
-2024-12-21T18:19:50Z [info]: Test Case Completed : Verify promotion code Status : failed
-2024-12-21T18:19:50Z [info]: Test Case Started : Verify catalog items
-2024-12-21T18:19:51Z [info]: Executing Step : Enter user credentials on login page
-2024-12-21T18:19:57Z [info]: Executing Step : Browse catalog on home page
-2024-12-21T18:20:02Z [info]: Test Case Completed : Verify catalog items Status : passed
-2024-12-21T18:20:03Z [info]: Test Case Started : Veirfy user can log out successfully
-2024-12-21T18:20:03Z [info]: Executing Step : Enter user credentials on login page
-2024-12-21T18:20:09Z [info]: Executing Step : Validate user is logged out successfully
-2024-12-21T18:20:11Z [info]: Test Case Completed : Veirfy user can log out successfully Status : failed
-2024-12-21T18:20:11Z [info]: Finished the run: failed
+2024-12-21T20:00:21Z [info]: Test Case Started : Verify new user can register successfully
+2024-12-21T20:00:22Z [info]: Executing Step : Naviagte to new user registration page
+2024-12-21T20:00:28Z [info]: Executing Step : Provide personal detils
+2024-12-21T20:00:32Z [info]: Executing Step : Provide address details
+2024-12-21T20:00:36Z [info]: Executing Step : Provide login details
+2024-12-21T20:00:37Z [info]: Executing Step : Provide communication consent details
+2024-12-21T20:00:43Z [info]: Test Case Completed : Verify new user can register successfully Status : passed
+2024-12-21T20:00:43Z [info]: Test Case Started : Veirfy user can log in successfully
+2024-12-21T20:00:43Z [info]: Executing Step : Enter user credentials on login page
+2024-12-21T20:00:49Z [info]: Executing Step : Validate login is succussful
+2024-12-21T20:00:56Z [info]: Test Case Completed : Veirfy user can log in successfully Status : passed
+2024-12-21T20:00:56Z [info]: Test Case Started : Verify product should be added to bag successfully
+2024-12-21T20:00:56Z [info]: Executing Step : Add product to bag
+2024-12-21T20:01:10Z [info]: Test Case Completed : Verify product should be added to bag successfully Status : failed
+2024-12-21T20:01:10Z [info]: Test Case Started : Verify promotion code
+2024-12-21T20:01:11Z [info]: Executing Step : Enter user credentials on login page
+2024-12-21T20:01:18Z [info]: Executing Step : Apply promotion code on checkout page
+2024-12-21T20:09:23Z [info]: Test Case Completed : Verify promotion code Status : timedOut
+2024-12-21T20:09:24Z [info]: Test Case Started : Verify catalog items
+2024-12-21T20:09:25Z [info]: Executing Step : Enter user credentials on login page
+2024-12-21T20:09:34Z [info]: Executing Step : Browse catalog on home page
+2024-12-21T20:09:39Z [info]: Test Case Completed : Verify catalog items Status : passed
+2024-12-21T20:09:39Z [info]: Test Case Started : Veirfy user can log out successfully
+2024-12-21T20:09:39Z [info]: Executing Step : Enter user credentials on login page
+2024-12-21T20:11:00Z [info]: Executing Step : Validate user is logged out successfully
+2024-12-21T20:11:07Z [info]: Test Case Completed : Veirfy user can log out successfully Status : failed
+2024-12-21T20:11:07Z [info]: Test Case Started : Verify new user can register successfully
+2024-12-21T20:11:08Z [info]: Executing Step : Naviagte to new user registration page
+2024-12-21T20:11:08Z [info]: Test Case Completed : Verify new user can register successfully Status : failed
+2024-12-21T20:11:09Z [info]: Test Case Started : Veirfy user can log in successfully
+2024-12-21T20:11:09Z [info]: Executing Step : Enter user credentials on login page
+2024-12-21T20:11:10Z [info]: Test Case Completed : Veirfy user can log in successfully Status : failed
+2024-12-21T20:11:10Z [info]: Test Case Started : Verify product should be added to bag successfully
+2024-12-21T20:11:11Z [info]: Executing Step : Add product to bag
+2024-12-21T20:11:12Z [info]: Test Case Completed : Verify product should be added to bag successfully Status : failed
+2024-12-21T20:11:12Z [info]: Test Case Started : Verify promotion code
+2024-12-21T20:11:12Z [info]: Executing Step : Enter user credentials on login page
+2024-12-21T20:11:13Z [info]: Test Case Completed : Verify promotion code Status : failed
+2024-12-21T20:11:14Z [info]: Test Case Started : Verify catalog items
+2024-12-21T20:11:14Z [info]: Executing Step : Enter user credentials on login page
+2024-12-21T20:11:15Z [info]: Test Case Completed : Verify catalog items Status : failed
+2024-12-21T20:11:15Z [info]: Test Case Started : Veirfy user can log out successfully
+2024-12-21T20:11:16Z [info]: Executing Step : Enter user credentials on login page
+2024-12-21T20:11:16Z [info]: Test Case Completed : Veirfy user can log out successfully Status : failed
+2024-12-21T20:11:17Z [info]: Test Case Started : Verify new user can register successfully
+2024-12-21T20:11:17Z [info]: Executing Step : Naviagte to new user registration page
+2024-12-21T20:11:21Z [info]: Executing Step : Provide personal detils
+2024-12-21T20:11:25Z [info]: Executing Step : Provide address details
+2024-12-21T20:11:30Z [info]: Executing Step : Provide login details
+2024-12-21T20:11:31Z [info]: Executing Step : Provide communication consent details
+2024-12-21T20:11:38Z [info]: Test Case Completed : Verify new user can register successfully Status : passed
+2024-12-21T20:11:38Z [info]: Test Case Started : Veirfy user can log in successfully
+2024-12-21T20:11:38Z [info]: Executing Step : Enter user credentials on login page
+2024-12-21T20:11:44Z [info]: Executing Step : Validate login is succussful
+2024-12-21T20:11:51Z [info]: Test Case Completed : Veirfy user can log in successfully Status : passed
+2024-12-21T20:11:51Z [info]: Test Case Started : Verify product should be added to bag successfully
+2024-12-21T20:11:51Z [info]: Executing Step : Add product to bag
+2024-12-21T20:12:04Z [info]: Test Case Completed : Verify product should be added to bag successfully Status : passed
+2024-12-21T20:12:04Z [info]: Test Case Started : Verify promotion code
+2024-12-21T20:12:05Z [info]: Executing Step : Enter user credentials on login page
+2024-12-21T20:12:11Z [info]: Executing Step : Apply promotion code on checkout page
+2024-12-21T20:12:14Z [info]: Executing Step : Validate promotion code
+2024-12-21T20:12:15Z [info]: Test Case Completed : Verify promotion code Status : passed
+2024-12-21T20:12:15Z [info]: Test Case Started : Verify catalog items
+2024-12-21T20:12:15Z [info]: Executing Step : Enter user credentials on login page
+2024-12-21T20:12:22Z [info]: Executing Step : Browse catalog on home page
+2024-12-21T20:12:24Z [info]: Test Case Completed : Verify catalog items Status : passed
+2024-12-21T20:12:24Z [info]: Test Case Started : Veirfy user can log out successfully
+2024-12-21T20:12:24Z [info]: Executing Step : Enter user credentials on login page
+2024-12-21T20:12:30Z [info]: Executing Step : Validate user is logged out successfully
+2024-12-21T20:12:34Z [info]: Test Case Completed : Veirfy user can log out successfully Status : passed
+2024-12-21T20:12:34Z [info]: Finished the run: failed

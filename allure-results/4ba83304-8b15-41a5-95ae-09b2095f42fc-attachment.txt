@@ -1,6 +1,0 @@
-2024-12-21T23:49:24+05:30 [info]: Launching application
-2024-12-21T23:49:26+05:30 [info]: Browser launched
-2024-12-21T23:49:49+05:30 [error]: Error applying promo code : Error: locator.click: Target page, context or browser has been closed
-Call log:
-  - waiting for getByTestId('bagbutton-button')
-

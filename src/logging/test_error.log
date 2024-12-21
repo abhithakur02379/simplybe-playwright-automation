@@ -95,3 +95,113 @@ Call log:
 [2m  - Expect menu button to be visible with timeout 5000ms[22m
 [2m  - waiting for locator('#hfMenuBtn')[22m
 
+2024-12-22T01:14:09+05:30 [error]: Error in validating sign in user : Error: page.waitForLoadState: Test ended.
+=========================== logs ===========================
+  "domcontentloaded" event fired
+  "commit" event fired
+  "domcontentloaded" event fired
+============================================================
+2024-12-22T01:19:14+05:30 [error]: Error applying promo code : Error: locator.click: Test ended.
+Call log:
+[2m  - waiting for getByTestId('bagbutton-button')[22m
+
+2024-12-22T01:26:48+05:30 [error]: Unable to launch browser: Error: page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.simplybe.co.uk/
+Call log:
+[2m  - navigating to "https://www.simplybe.co.uk/", waiting until "load"[22m
+
+2024-12-22T01:26:48+05:30 [error]: Error launching applicationError: page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.simplybe.co.uk/
+Call log:
+[2m  - navigating to "https://www.simplybe.co.uk/", waiting until "load"[22m
+
+2024-12-22T01:26:48+05:30 [error]: Error in navigation to new user registration page : Error: page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.simplybe.co.uk/
+Call log:
+[2m  - navigating to "https://www.simplybe.co.uk/", waiting until "load"[22m
+
+2024-12-22T01:26:50+05:30 [error]: Unable to launch browser: Error: page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.simplybe.co.uk/
+Call log:
+[2m  - navigating to "https://www.simplybe.co.uk/", waiting until "load"[22m
+
+2024-12-22T01:26:50+05:30 [error]: Error launching applicationError: page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.simplybe.co.uk/
+Call log:
+[2m  - navigating to "https://www.simplybe.co.uk/", waiting until "load"[22m
+
+2024-12-22T01:26:50+05:30 [error]: Error clicking sign in button : Error: page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.simplybe.co.uk/
+Call log:
+[2m  - navigating to "https://www.simplybe.co.uk/", waiting until "load"[22m
+
+2024-12-22T01:26:52+05:30 [error]: Unable to launch browser: Error: page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.simplybe.co.uk/
+Call log:
+[2m  - navigating to "https://www.simplybe.co.uk/", waiting until "load"[22m
+
+2024-12-22T01:26:52+05:30 [error]: Error launching applicationError: page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.simplybe.co.uk/
+Call log:
+[2m  - navigating to "https://www.simplybe.co.uk/", waiting until "load"[22m
+
+2024-12-22T01:26:52+05:30 [error]: Error clicking sign in button : Error: page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.simplybe.co.uk/
+Call log:
+[2m  - navigating to "https://www.simplybe.co.uk/", waiting until "load"[22m
+
+2024-12-22T01:26:52+05:30 [error]: Error adding product to bag : Error: page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.simplybe.co.uk/
+Call log:
+[2m  - navigating to "https://www.simplybe.co.uk/", waiting until "load"[22m
+
+2024-12-22T01:26:53+05:30 [error]: Unable to launch browser: Error: page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.simplybe.co.uk/
+Call log:
+[2m  - navigating to "https://www.simplybe.co.uk/", waiting until "load"[22m
+
+2024-12-22T01:26:53+05:30 [error]: Error launching applicationError: page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.simplybe.co.uk/
+Call log:
+[2m  - navigating to "https://www.simplybe.co.uk/", waiting until "load"[22m
+
+2024-12-22T01:26:53+05:30 [error]: Error clicking sign in button : Error: page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.simplybe.co.uk/
+Call log:
+[2m  - navigating to "https://www.simplybe.co.uk/", waiting until "load"[22m
+
+2024-12-22T01:26:55+05:30 [error]: Unable to launch browser: Error: page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.simplybe.co.uk/
+Call log:
+[2m  - navigating to "https://www.simplybe.co.uk/", waiting until "load"[22m
+
+2024-12-22T01:26:55+05:30 [error]: Error launching applicationError: page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.simplybe.co.uk/
+Call log:
+[2m  - navigating to "https://www.simplybe.co.uk/", waiting until "load"[22m
+
+2024-12-22T01:26:55+05:30 [error]: Error clicking sign in button : Error: page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.simplybe.co.uk/
+Call log:
+[2m  - navigating to "https://www.simplybe.co.uk/", waiting until "load"[22m
+
+2024-12-22T01:26:56+05:30 [error]: Unable to launch browser: Error: page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.simplybe.co.uk/
+Call log:
+[2m  - navigating to "https://www.simplybe.co.uk/", waiting until "load"[22m
+
+2024-12-22T01:26:56+05:30 [error]: Error launching applicationError: page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.simplybe.co.uk/
+Call log:
+[2m  - navigating to "https://www.simplybe.co.uk/", waiting until "load"[22m
+
+2024-12-22T01:26:56+05:30 [error]: Error clicking sign in button : Error: page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.simplybe.co.uk/
+Call log:
+[2m  - navigating to "https://www.simplybe.co.uk/", waiting until "load"[22m
+
+2024-12-22T01:28:16+05:30 [error]: Unable to launch browser: Error: page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+[2m  - navigating to "/", waiting until "load"[22m
+
+2024-12-22T01:28:16+05:30 [error]: Error launching applicationError: page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+[2m  - navigating to "/", waiting until "load"[22m
+
+2024-12-22T01:28:16+05:30 [error]: Error in navigation to new user registration page : Error: page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+[2m  - navigating to "/", waiting until "load"[22m
+
+2024-12-22T01:28:17+05:30 [error]: Unable to launch browser: Error: page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+[2m  - navigating to "/", waiting until "load"[22m
+
+2024-12-22T01:28:17+05:30 [error]: Error launching applicationError: page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+[2m  - navigating to "/", waiting until "load"[22m
+
+2024-12-22T01:28:17+05:30 [error]: Error clicking sign in button : Error: page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+[2m  - navigating to "/", waiting until "load"[22m
+
