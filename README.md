@@ -1,5 +1,7 @@
 <h2> Project Title</h2>
 This project is called simplybe-playwright-automation
+<br>
+Website URL - <link>https://www.simplybe.co.uk/</link>
 
 <h2> Prerequisites </h2>
 This project is built using <b>Playwright v1.49.</b> with <b>Typescript</b>. For correct project setup following softwares should be installed on the machine:
@@ -40,7 +42,7 @@ To run this project in headless mode, please execute the following command
 ```console
 npx playwright test --project firefox
 ```
-**Note** Chrome is having some issue in accessing website in  headless mode so tests ran on Chrome will fail.
+**Note** Chrome is having some issue accessing website in  headless mode so tests ran on Chrome will fail.
 
 <h2> Reports </h2>
 
