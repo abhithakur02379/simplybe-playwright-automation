@@ -15,6 +15,7 @@ Please check [official documentation](https://playwright.dev/docs/intro#installi
 3. Git<br>
 Please check [official documentation](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) to install Git
 
+
 <h2> Clone the repository </h2>
 <p>To clone the repository into your local machine please execute below command</p>
 
@@ -28,6 +29,12 @@ cd simply-be-playwright-automation
 ```
 
 <h2> Test Execution </h2>
+
+Please run below command to add Allure dependency to the project:
+
+```console
+npm install -D allure-playwright
+```
 
 <h4> Headed Mode </h4>
 
