@@ -51,7 +51,6 @@ export class AddProductsPage extends BasePage {
         this.bagPageHeading = page.getByRole('heading', { name: 'Bag' })
         this.navigateToBagButton = page.getByTestId('bagbutton-button')
         this.removePromoCodeButton = page.locator('(//span[contains(text(), "Remove")])[2]')
-        this.activePromotionCode = page.locator('//div[@id="bag-info-banner"]//u').innerText()
 
     }
 
