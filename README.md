@@ -69,10 +69,6 @@ npx playwright show-report
 
 Allure report is a third party reporting tool that can be integrated with playwright. To know more about the integration please visit the [official documentation](https://github.com/allure-framework/allure-js/tree/main/packages/allure-playwright)
 
-<p> To install allure report in the project, please run the following command:</p>
-
-```console
-npm install -D allure-playwright
 ```
 <p> To clean any existing report, please run the following command:</p>
 
