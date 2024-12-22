@@ -19,7 +19,7 @@ Please check [official documentation](https://git-scm.com/book/en/v2/Getting-Sta
 <p>To clone the repository into your local machine please execute below command</p>
 
 ```console
-https://github.com/abhithakur02379/simplybe-playwright-automation.git
+git clone https://github.com/abhithakur02379/simplybe-playwright-automation.git
 ```
 <p>After successfully cloning the repository please change directory to project folder by executing below command</p>
 

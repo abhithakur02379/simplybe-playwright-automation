@@ -753,3 +753,77 @@ Call log:
 2024-12-22T01:57:49+05:30 [info]: Catalog values are same
 2024-12-22T01:57:49+05:30 [info]: Launching application
 2024-12-22T01:57:51+05:30 [info]: Browser launched
+2024-12-22T11:14:50+05:30 [info]: Launching application
+2024-12-22T11:14:54+05:30 [info]: Browser launched
+2024-12-22T11:15:01+05:30 [error]: Error providing address details : Error: Waiting for enter manual addres link to be visible: Target page, context or browser has been closed
+2024-12-22T11:15:33+05:30 [info]: Launching application
+2024-12-22T11:15:36+05:30 [info]: Browser launched
+2024-12-22T11:15:58+05:30 [error]: Error providing communication consent details : Error: Waiting for Account to be created successfully
+
+[31mTimed out 5000ms waiting for [39m[2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m
+
+Locator: getByText('Account created !')
+Expected: visible
+Received: <element(s) not found>
+Call log:
+[2m  - Waiting for Account to be created successfully with timeout 5000ms[22m
+[2m  - waiting for getByText('Account created !')[22m
+
+2024-12-22T11:16:00+05:30 [info]: Launching application
+2024-12-22T11:16:02+05:30 [info]: Browser launched
+2024-12-22T11:16:11+05:30 [error]: Error in validating sign in user : Error: Expect my account link to be visible
+
+[31mTimed out 5000ms waiting for [39m[2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m
+
+Locator: getByTestId('my-account-link').nth(1)
+Expected: visible
+Received: <element(s) not found>
+Call log:
+[2m  - Expect my account link to be visible with timeout 5000ms[22m
+[2m  - waiting for getByTestId('my-account-link').nth(1)[22m
+
+2024-12-22T11:16:13+05:30 [info]: Launching application
+2024-12-22T11:16:15+05:30 [info]: Browser launched
+2024-12-22T11:16:24+05:30 [error]: Error adding product to bag : Error: Expect login button to be enabled
+
+[31mTimed out 5000ms waiting for [39m[2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m
+
+Locator: locator('//span[contains(text(),"Dresses")]')
+Expected: visible
+Received: <element(s) not found>
+Call log:
+[2m  - Expect login button to be enabled with timeout 5000ms[22m
+[2m  - waiting for locator('//span[contains(text(),"Dresses")]')[22m
+
+2024-12-22T11:16:26+05:30 [info]: Launching application
+2024-12-22T11:16:28+05:30 [info]: Browser launched
+2024-12-22T11:18:27+05:30 [error]: Error applying promo code : Error: locator.click: Test timeout of 120000ms exceeded.
+Call log:
+[2m  - waiting for getByTestId('bagbutton-button')[22m
+
+2024-12-22T11:18:28+05:30 [info]: Launching application
+2024-12-22T11:18:30+05:30 [info]: Browser launched
+2024-12-22T11:18:39+05:30 [error]: Error in browsing catalogError: Waiting for account options to be visible
+
+[31mTimed out 5000ms waiting for [39m[2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m
+
+Locator: locator('#hfMenuBtn')
+Expected: visible
+Received: <element(s) not found>
+Call log:
+[2m  - Waiting for account options to be visible with timeout 5000ms[22m
+[2m  - waiting for locator('#hfMenuBtn')[22m
+
+2024-12-22T11:18:39+05:30 [info]: Launching application
+2024-12-22T11:18:41+05:30 [info]: Browser launched
+2024-12-22T11:20:28+05:30 [error]: Error clicking sign out button : Error: Expect menu button to be visible
+
+[31mTimed out 5000ms waiting for [39m[2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m
+
+Locator: locator('#hfMenuBtn')
+Expected: visible
+Received: <element(s) not found>
+Call log:
+[2m  - Expect menu button to be visible with timeout 5000ms[22m
+[2m  - waiting for locator('#hfMenuBtn')[22m
+
