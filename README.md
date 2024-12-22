@@ -25,7 +25,7 @@ git clone https://github.com/abhithakur02379/simplybe-playwright-automation.git
 <p>After successfully cloning the repository please change directory to project folder by executing below command</p>
 
 ```console
-cd simply-be-playwright-automation
+cd simplybe-playwright-automation
 ```
 
 <h2> Test Execution </h2>
